@@ -1,0 +1,38 @@
+.block {
+	float: left;
+}
+.right {
+	margin-left: 20px;
+}
+
+#results > div,
+#fields > div {
+	margin-bottom: 10px;
+}
+#map {
+	margin-bottom: 20px;
+}
+#log {
+	font-family: Verdana;
+	font-size: 14px;
+}
+
+.map {
+	border: solid 1px #aaa;
+	height: auto;
+	width: auto;
+}
+.map .cell {
+	width: 20px;
+	height: 20px;
+	background-color: #ddd;
+	float: left;
+	border-right: solid 1px #ccc;
+	border-bottom: solid 1px #ccc;
+}
+.map .cell.norightborder {
+	border-right: none;
+}
+.map .cell.nobottomborder {
+	border-bottom: none;
+}
